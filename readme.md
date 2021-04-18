@@ -114,3 +114,8 @@ az group delete -n MyMicroserviceResources
 
 # Clean up resources in azure portal 
 Open -> Resource groups -> select your name resource -> delete
+
+# repository git
+git remote add origin https://github.com/martinsnelson/MicroserviceAzureAKS.git
+git branch -M main
+git push -u origin main
